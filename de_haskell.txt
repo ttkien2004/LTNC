@@ -1,0 +1,14 @@
+C1: Viết hàm in ra số ngày, biết input là năm với tháng
+vd: inNgay 3 2012 -> Output: 31
+	   2 2012 -> Output: 29
+
+C2: Viết hàm specialNum, nhận input là số nguyên n với list số nguyên num, kết quả 
+trả về là list các tuple là cặp số có tổng bằng n.
+vd specialNum 5 [1,2,3,4,5] -> Output: [(1,4), (2,3), (4,1), (3,2)] 
+
+C3: Viết hàm inSo, không nhận input, kết quả trả về là list các số
+chia hết cho 7 nhưng không chia hết cho 5, xét trên list [1..100].
+
+C4: Viết hàm inOddEven, nhận input là một list số nguyên, kết quả trả về là 
+tuple với một cặp hai list số nguyên, biết list1 là số chẵn, list2 là số lẻ
+vd: inOddEven [1..10] -> ([1,3,5,7,9],[2,4,6,8,10])
